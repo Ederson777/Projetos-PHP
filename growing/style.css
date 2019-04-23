@@ -4,9 +4,13 @@
 body {
 	margin: 0;
 	padding: 0;
-	padding-bottom: 300px;
 }
-header {
+.topoint{
+	display: flex;
+
+}
+header
+{
 	display: flex;
 	justify-content: center;
 	height: 120px;
@@ -15,10 +19,21 @@ header {
 .topo
 {
 	display: flex;
+	justify-content: center;
 	width: 100%;
 	height: 30px;
 	background-color: #19698e;
 
+}
+.topoint
+{
+	display: flex;
+	width: 990px;
+	background-color: #19698e;
+	justify-content: space-between;
+	align-items: center;
+	color: #FFF;
+	font-size: 12px;
 }
 .container {
 	display: flex;
@@ -61,7 +76,7 @@ nav a {
 nav .active a,
 nav a:hover {
 	background-color: #99FF99;
-	color: #FFFFFF;
+	color: #FFF;
 }
 #banner {
 	display: flex;
@@ -104,6 +119,7 @@ section
 {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 40px;
 }
 .agencia
 {
@@ -117,4 +133,450 @@ section
 	height: 50px;
 	background-color: #19698e;
 }
+.container3
+{
+	display: flex;
+	flex-direction: column;
+	color: #FFFFFF;
+	justify-content: center;
+	padding-left: 100px;
+}
 
+.div1
+{
+	flex: 1;
+	background-color: #ff8040;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	width: 320px;
+	height: 50px;
+}
+.div2
+{
+	flex: 1;
+	background-color: #00cc92;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	width: 320px;
+	height: 50px;
+}
+.div3
+{
+	flex: 1;
+	background-color: #c43f4a;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	width: 320px;
+	height: 50px;
+}
+.div4
+{
+	flex: 1;
+	background-color: #ffbf40;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	width: 320px;
+	height: 50px;	
+}
+aside
+{
+	display: flex;
+	justify-content: center;
+}
+.container4
+{
+	display: flex;
+	justify-content: center;
+	width: 990px;
+	padding-top: 25px;
+
+}
+.left
+{
+	flex: 1;
+	justify-content: center;
+	margin-top: 20px;
+	padding-left: 30px;
+
+}
+.leftint1
+{
+	display: flex;
+	width: 380px;
+	height: 80px;
+	background-color: #ff8040;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: #FFF;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+.leftint2
+{
+	display: flex;
+	width: 380px;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+	background-color: #00cc92;
+	font-size: 30px;
+	color: #FFF;
+	margin-top: 20px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+.leftint3
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #00cc92;
+	width: 380px;
+	height: 80px;
+	background-color: #c43f4a;
+	font-size: 30px;
+	color: #FFF;
+	margin-top: 20px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+.leftint4
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #00cc92;
+	width: 380px;
+	height: 80px;
+	background-color: #ffbf40;
+	font-size: 30px;
+	color: #FFF;
+	margin-top: 20px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+.right
+{
+	flex: 1;
+	margin-top: 20px;
+}
+.right img
+{
+	width: 100%;
+}
+.incentivo
+{
+	display: flex;
+	padding-top: 45px;
+}
+.container5
+{
+	display: flex;
+	flex-direction: column;
+	width: 990px;
+	margin-top: 35px;
+	color: #FFF;
+}
+.container5 div
+{
+	display: flex;
+}
+.incentivoopções1
+{
+	flex: 1;
+	justify-content: space-around;
+	height:80px; 
+}
+.Empreendedorismo
+{
+	display: flex;
+	background-color: #ff8040;
+	align-items: center;
+	width: 280px;
+	height: 80px;
+}
+.Empreendedorismo1 img
+{
+	flex: 1;
+	padding-left: 30px;
+}
+.Empreendedorismo2
+{
+	flex:2;
+	padding-left: 20px;
+}
+.Planejamento
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffbf40;
+	width: 280px;
+	height: 80px;
+}
+.Planejamento img
+{
+	flex: 1;
+	padding-left: 30px;
+}
+
+.Planejamento2
+{
+	flex:2;
+	padding-left: 20px;
+}
+.Finanças 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #83bf30;
+	width: 280px;
+	height: 80px;
+	padding-left: 30px;
+}
+
+.Finanças2
+{
+	flex: 2;
+	padding-left: 20px;
+}
+
+
+
+
+
+--------------------------------------------------------
+
+
+
+
+
+.incentivoopções2
+{
+	flex: 1;
+	justify-content: space-around;
+	height:80px;
+	padding-top: 20px;
+}
+
+.Vendas
+{
+	display: flex;
+	background-color: #00cc92;
+	align-items: center;
+	width: 280px;
+	height: 80px;
+}
+.Vendas1 img
+{
+	flex: 1;
+	padding-left: 30px;
+}
+.Vendas2
+{
+	flex:2;
+	padding-left: 20px;
+}
+.Inovação
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #a1adb3;
+	width: 280px;
+	height: 80px;
+}
+.Inovação img
+{
+	flex: 1;
+	padding-left: 30px;
+}
+
+.Inovação2
+{
+	flex:2;
+	padding-left: 20px;
+}
+.Cooperação 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #996f45;
+	width: 280px;
+	height: 80px;
+	padding-left: 30px;
+}
+
+.Cooperação2
+{
+	flex: 2;
+	padding-left: 20px;
+}
+
+
+.incentivoopções2
+{
+	flex: 1;
+	justify-content: space-around;
+	height:80px;
+	padding-top: 20px;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+.incentivoopções3
+{
+	flex: 1;
+	justify-content: space-around;
+	height:80px;
+	padding-top: 20px;
+}
+
+.incentivoopções2
+{
+	flex: 1;
+	justify-content: space-around;
+	height:80px;
+	padding-top: 20px;
+}
+
+.Pessoas
+{
+	display: flex;
+	background-color: #bf303c;
+	align-items: center;
+	width: 280px;
+	height: 80px;
+}
+.Pessoas1 img
+{
+	flex: 1;
+	padding-left: 30px;
+}
+.Pessoas2
+{
+	flex:2;
+	padding-left: 20px;
+}
+.Organização
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #14adcc;
+	width: 280px;
+	height: 80px;
+}
+.Organização img
+{
+	flex: 1;
+	padding-left: 30px;
+}
+
+.Organização2
+{
+	flex:2;
+	padding-left: 20px;
+}
+.Leis 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #994599;
+	width: 280px;
+	height: 80px;
+	padding-left: 30px;
+}
+
+.Leis2
+{
+	flex: 2;
+	padding-left: 20px;
+}
+.formulário
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 20px;
+	width: 100%;
+	height: 500px;
+	color: #18A383;
+	background-color: #CCC;
+	padding-top: 20px;
+	text-shadow: 2px;
+
+	background-image:url('img/img04a.png');
+	background-position:center;
+	background-size:cover;
+	
+}
+form
+{
+	background-color: #FFF;
+	border-radius: 3px;
+	color: #999;
+	font-size: 0.8em;
+	padding: 15px;
+	padding-bottom: 10px;
+	margin: 0 ;
+	width: 300px;
+	color: #999999;
+}
+
+		input, textarea{
+			border: 0;
+			outline: none;
+
+			width: 280px;
+		}
+
+		.field{
+			border: solid 1px #ccc;
+			padding: 10px;
+
+			
+		}
+
+		.field:focus{
+			border-color: #18A383;
+		}
+
+		.center-content{
+			text-align: center;
+		}
+		.btn-btn-green
+		{
+			color: #fff;
+			background-color: #18A383;
+			border-radius: 2px;
+			width: 300px;
+			height: 50px;
+		}
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #19698e;
+	height: 50px;
+}
+.final
+{
+	color: #FFF;
+}
