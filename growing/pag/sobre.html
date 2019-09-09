@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Growing Web Design</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=0" />
+	<link rel="stylesheet" type="text/css" href="pagcss.css/pag.css">
+	<script type="text/javascript">
+		window.onload = function(){
+			document.querySelector(".menuMobile").addEventListener("click", function(){
+				if(document.querySelector(".menu nav ul").style.display == 'flex') {
+					document.querySelector(".menu nav ul").style.display = 'none';
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex';
+				}
+			});
+		};
+	</script>
+</head>
+<body>
+	<!-- https://api.whatsapp.com/send?L=pt&phone=5591991180891 -->
+	<div class="whatsapp">
+	    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5591991180891" target="blank"><img src="../img/what.png" style="height:50px; position:fixed; bottom: 25px; right: 25px; z-index:100;" data-selector="img"></a>
+	</div>
+	<header>
+		<div class="topo">
+			<div class="topoint">
+				<!-- <div><a href=""><p>CLIENTE</p></a></div> -->
+				<div class="topoint_topoint">
+					<!-- <div><a href="#"><img src="../img/facebook.png"></a></div> -->
+					<!-- <div><a href="#"><img src="../img/instagran.png"></a></div> -->
+					<!-- <div><a href="#"><img src="../img/youtube.png"></a></div> -->
+				</div>
+				<div><a href="pag/logn.php"><p>Sistema</p></a></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="container_int">
+				<div class="logo">
+				 	<a href="../index.html"><img src="../img/logo.png"></a>
+				 	<h1>Plante uma ideia, colha grandes resultados.</h1>
+				</div>
+				<div class="menu">
+					<nav>
+						<div class="menuMobile">
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+						</div>
+						<ul>
+							<li><a href="../index.html">HOME</a></li>
+							<li class="active"><a href="">SOBRE</a></li>
+							<li><a href="portifolio.php">PORTIFÓLIO</a></li>
+							<li><a href="contato.php">CONTATO</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="sobre"> 
+			<div class="sobre_int">
+				<div class="sobre_int_h1">
+					<h1>Sobre</h1>
+				</div>
+					<p>A Growing web design nasceu com o intuito de oferecer soluções práticas em criação de sites para pequena, média e grandes empresas,
+					hoje cada vez mais a presença na internet vem ser tornando um aliado muito forte para obtenção de resultados, e geração de valores, estamos vivendo a 4° Revolução Didital, e quem não esta na internt está fora do mercado, então proporcionamos a você um Web site com design arrojado e moderno com Layouts verdadeiramente incriveis, para que você e nossos clientes, fidelizem cadas ves mais, novos clientes.
+					<br/>
+					<br/>
+					Nossa missão é oferecer os melhores sites personalizados com Layours modernos e arrojados. </p>
+			</div>
+	</section>
+		<footer> 
+			<div class="final">
+				<P>Growing Web Design | Todos os direitos reservados</P>
+			</div>
+		</footer>
+</body>
+</html>

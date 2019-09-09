@@ -5,49 +5,68 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,user-scalable=0" />
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		window.onload = function(){
+			document.querySelector(".menuMobile").addEventListener("click", function(){
+				if(document.querySelector(".menu nav ul").style.display == 'flex') {
+					document.querySelector(".menu nav ul").style.display = 'none';
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex';
+				}
+			});
+		};
+	</script>
 </head>
 <body>
+	<!-- https://api.whatsapp.com/send?L=pt&phone=5591991180891 -->
+	<div class="whatsapp">
+	    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5591991180891" target="blank"><img src="img/what.png" style="height:50px; position:fixed; bottom: 25px; right: 25px; z-index:100;" data-selector="img"></a>
+	</div>
 	<header>
 		<div class="topo">
 			<div class="topoint">
-				<a href=""><div>Você está em</div></a>
-				<div>..... </div>
-				<a href=""><div>2° via de conta</div></a>
-				<a href=""><div>Mapa de cobertura</div></a>
-				<a href=""><div>Acessibilidade</div></a>
+				<!-- <div><a href=""><p>CLIENTE</p></a></div> -->
+				<div class="topoint_topoint">
+					<!-- <div><a href="https://www.facebook.com/growingwebdesign/"><img src="img/facebook.png" width="15" height="15"></a></div> -->
+					<!-- <div><a href="https://www.instagram.com/ederson_programador/"><img src="img/instagran.png" width="15" height="15"></a></div> -->
+					<!-- <div><a href="#"><img src="img/youtube.png" width="15" height="15"></a></div> -->
+				</div>
+				<div>
+					<a href="pag/logn.php"><p>Sistema</p></a>
+				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="logo">
-			 	<a href=""><img src="img/logo.png"></a>
-			 	<h1>Plante uma ideia, colha grandes resultados.</h1>
-			</div>
-			<div class="menu">
-				<nav>
-					<ul>
-						<li class="active"><a href="">HOME</a></li>
-						<li><a href="">SOBRE</a></li>
-						<li><a href="">PORTIFÓLIO</a></li>
-						<li><a href="">CONTATO</a></li>
-					</ul>
-				</nav>
+			<div class="container_int">
+				<div class="logo">
+				 	<a href=""><img src="img/logo.png"></a>
+				 	<h1>Plante uma ideia, colha grandes resultados.</h1>
+				</div>
+				<div class="menu">
+					<nav>
+						<div class="menuMobile">
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+						</div>
+						<ul>
+							<li class="active"><a href="">HOME</a></li>
+							<li><a href="pag/sobre.html">SOBRE</a></li>
+							<li><a href="pag/portifolio.php">PORTIFÓLIO</a></li>
+							<li><a href="pag/contato.php">CONTATO</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
 	</header>
 	<section id="banner">
-		<div class="container column">
-			<div class="banner_headline">
-				<div class="banner_headline_int1">
-					<img src="img/siteparaempresas.png">
-				</div>
-				<div class="banner_headline_int2">
-					<img src="img/1.png">
-				</div>
-			</div>			
+		<div class="banner_int1">
+			<img src="img/siteparaempresas.png">
 		</div>
-		
+
 	</section>
-	<section>
+		<section>
 			<div class="agencia">
 				<h2>Agencia de criação e desenvolvimento de sites</h2>
 			</div>
@@ -65,71 +84,66 @@
 				</div>
 			</div>			
 		</aside>
-		<section>
-			<div class="incentivo">
-				<a href=""><img src="img/incentivo.png"></a>
+
+		<!-- <section id="sobre"> 
+			<div class="sobre_int">
+				<h1>Sobre</h1>
+			</div>
+		</section> -->
+
+		<section id="preço">
+			<div class="preço_int">
+				
+
+
+				<div class="div2222">
+					<div class="SITE">
+						<h1>Plano Bom</h1>
+						<div class="desconto">
+							<div class="desconto_int"><strike>R$ 717,00</strike> (50% de desconto)</div>
+							<div class="numero"><p>R$ 358,00</p></div>
+							<div>Até 5x R$ 71,70 ou até 12x com juros</div>
+						</div>
+						<div class="lista">
+							<div><p><strike>Layout Personalizado</strike></p></div>
+							<div><p>Até 5 páginas</p></div>
+							<div><p>Design Responsivo</p></div>
+							<div><p>Site Seguro (https://)</p></div>
+							<div><p>Botão Whatsapp</p></div>
+							<div><p>Domínio suamarca.com.br (bônus grátis por um ano)</p></div>
+							<div><p><strike>Blog</strike></p></div>
+							<div><p>Hospedagem do Site + E-mails@suamarca (bônus grátis por 3 meses)</p></div>
+							<div><p><strike>Configuração Google Business (bônus grátis)</strike></p></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="div2222">
+					<div class="SITE">
+						<h1>Plano Ótimo</h1>
+						<div class="desconto2">
+							<div class="desconto_int"><strike>R$ 1427,00</strike> (30% de desconto)</div>
+							<div class="numero"><p>R$ 997,00</p></div>
+							<div>Até 5x R$ 199,40 ou até 12x com juros</div>
+						</div>
+						<div class="lista">
+							<div><p>Layout Personalizado</p></div>
+							<div><p>Até 10 páginas</p></div>
+							<div><p>Design Responsivo</p></div>
+							<div><p>Site Seguro (https://)</p></div>
+							<div><p>Botão Whatsapp</p></div>
+							<div><p>Domínio suamarca.com.br (bônus grátis por um ano)</p></div>
+							<div><p>Blog</p></div>
+							<div><p>Hospedagem do Site + E-mails@suamarca (bônus grátis por 3 meses)</p></div>
+							<div><p>Configuração Google Business (bônus grátis)</p></div>
+						</div>
+					</div>
+				</div>
+				
+				
 			</div>
 		</section>
-		<section>
-			<div class="container5">
-				<div class="incentivoopções1">
-						<a href="#"><div class="Empreendedorismo">
-							<div class="Empreendedorismo1"><img src="img/icons/empreendedorismo.png" width="50" height="50"></div>
-							<div class="Empreendedorismo2">Empreendedorismo</div>									
-						</div>
-						</a>
-
-						<a href=""><div class="Planejamento">
-							<div class="Planejamento1"><img src="img/icons/planejamento.png" width="50" height="50"></div>
-							<div class="Planejamento2">Planejamento</div>
-						</div>
-						</a>
-						<a href="">
-						<div class="Finanças">
-							<div class="Finanças1"><img src="img/icons/finanças.png" width="50" height="50"></div>
-							<div class="Finanças2">Finanças</div>
-						</div>
-						</a>
-				</div>
-
-				<div class="incentivoopções2">
-						<a href=""><div class="Vendas">
-							<div class="Vendas1"><img src="img/icons/vendas.png" width="50" height="50"></div>
-							<div class="Vendas2">Mercado e Vendas</div>				
-						</div>
-						</a>
-						<a href=""><div class="Inovação">
-							<div class="Inovação1"><img src="img/icons/Inovação.png" width="50" height="50"></div>
-							<div class="Inovação2">Inovação</div>
-						</div>
-						</a>
-						<a href=""><div class="Cooperação">
-							<div class="Cooperação1"><img src="img/icons/Cooperação.png" width="50" height="50"></div>
-							<div class="Cooperação2">Cooperação</div>
-						</div>
-						</a>
-
-				</div>
-				<div class="incentivoopções3">
-						<a href=""><div class="Pessoas">
-							<div class="Pessoas1"><img src="img/icons/pessoas.png" width="50" height="50"></div>
-							<div class="Pessoas2">Pessoas</div>				
-						</div>
-						</a>
-						<a href=""><div class="Organização">
-							<div class="Organização1"><img src="img/icons/organização.png" width="50" height="50"></div>
-							<div class="Organização2">Organização</div>
-						</div>
-						</a>
-						<a href=""><div class="Leis">
-							<div class="Leis1"><img src="img/icons/leis.png" width="50" height="50"></div>
-							<div class="Leis2">Leis</div>
-						</div>
-						</a>
-				</div>				
-			</div>			
-		</section>
-		<section class="formulário">
+		<!-- <section class="formulário">
 			<h2>Contate-nos</h2>
 			<form action="">
 				<p>Nome:</p>
@@ -148,7 +162,7 @@
 					<input type="submit" class="btn-btn-green" value="Enviar Dados">
 				</p>
 			</form>
-		</section>
+		</section> -->
 		<footer> 
 			<div class="final">
 				<P>Growing Web Design | Todos os direitos reservados</P>
@@ -156,3 +170,4 @@
 		</footer>
 		
 </body>
+</html>

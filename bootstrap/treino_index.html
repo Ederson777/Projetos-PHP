@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Meu primeiro <small>sistema Bootstrap</small></h1>
+		<p>Este é meu primeiro teste.</p>
+
+		<hr/>
+		<button class="btn btn-default btn-lg">Atualizar</button>
+		<button class="btn btn-success">Cadastrar</button>
+		<button class="btn btn-danger">Excluir</button>
+		<button class="btn btn-info">Adicionar</button>
+	
+
+	<hr/>
+	<p>Qual Empresa Você Prefere?</p>
+	<div class="btn-group">
+		<a class="btn btn-primary">Apple</a>
+		<a class="btn btn-primary">Samsung</a>
+		<a class="btn btn-primary">Sony</a>
+	</div>
+
+	<hr/>
+
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Escolha <span class="caret"></span></button>
+		
+		<ul class="dropdown-menu">
+			<li class="dropdown-header">Linguagens a serem aprendidas:</li>
+			<li><a href="#">PHP</a></li>
+			<li class="disabled"><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li class="divider"></li>
+			<li><a href="#">Javacript</a></li>
+		</ul>
+	</div>
+
+	<hr/>
+
+	<div class="jumbotron">
+		<h1>Curso de Bootstrap</h1>
+		<p>O Bootstrap é o mais popular framework de HTML, CSS
+		e Javascript para criação de designs responsivos na internet</p>
+	</div>
+
+	<hr/>
+	<p>Exemplos</p>
+	<hr/>
+
+	<div class="alert alert-success fade in">
+		<a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>	
+		Senha criada com sucesso!
+	</div>
+	<div class="alert alert-danger fade in">
+		<a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>	
+		E-mail e/ou senha estão incorretos!
+	</div>
+	<div class="alert alert-warning">
+		E-mail e/ou senha estão incorretos!
+	</div>
+	<div class="alert alert-warning fade in">
+		<a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		Sua fatura está vencendo...
+	</div>
+	<div class="alert alert-success fade in">
+		<a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>	
+		Senha trocada com sucesso
+	</div>
+
+	<hr/>
+	<button class="btn btn-primary">Mensagens <span class="badge">7</span></button>
+
+	<h2>Meu menu <span class="label label-warning">novo</span></h2>
+	<h2>Meu menu <span class="label label-danger">depreciado</span></h2>
+	<hr/>
+
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="panel panel-success">
+				<div class="panel-heading">Esportes</div>
+				<div class="panel-body">Notícias e conteúdos sobre esportes</div>
+			</div>
+		</div>	
+		<div class="col-sm-4">
+			<div class="panel panel-danger">
+				<div class="panel-heading">Política</div>
+				<div class="panel-body">Notícias e conteúdos sobre Política</div>
+			</div>	
+		</div>	
+	</div>
+
+	<hr/>
+
+	<button data-toggle="collapse" data-target="#teste">O que esse produto faz?</button>
+	<div id="teste" class="collapse">
+		Esse produto é excelente para realizar diversos benefícios a saude.
+	</div>
+	<hr/>
+	<a data-toggle="collapse" href="#teste2">Collapse - Sistema de Faq</a>
+	<div id="teste2" class="collapse">
+		Alguma frase qualquer...
+	</div>
+
+	<hr/>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<a href="#teste3" data-toggle="collapse">
+				<h4 class="panel-title">
+				
+				Granito
+				
+				</h4>
+			</a>
+		</div>
+		<div id="teste3" class="collapse panel-collapse">
+			<div class="panel-body">
+				A explicação muito complexa sobre granitos.
+			</div>
+		</div>
+	</div>
+
+
+	<hr/>
+	<p>List-Group</p>
+	<ul class="list-group">
+		<li class="list-group-item">Item 1</li>
+		<li class="list-group-item">Item 2</li>
+		<li class="list-group-item">Item 3</li>
+		<li class="list-group-item">Item 4</li>
+		<li class="list-group-item">Item 5</li>
+
+	</ul>
+
+	<hr/>
+	<p>List-Group - Menu</p>
+	<div class="list-group">
+		<a href="" class="list-group-item active">Item 1</a>
+		<a href="" class="list-group-item disabled">Item 2</a>
+		<a href="" class="list-group-item list-group-item-success">Item 3</a>
+		<a href="" class="list-group-item list-group-item-info">Item 4</a>
+		<a href="" class="list-group-item list-group-item-warning">Item 5</a>
+		<a href="" class="list-group-item list-group-item-danger">Item 6</a>
+
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<a href="#teste4" data-toggle="collapse">
+				<h4 class="panel-title">
+				
+				Menu
+				
+				</h4>
+			</a>
+		</div>
+		<div id="teste4" class="collapse panel-collapse">
+			<div class="panel-body">
+				<a href="" class="list-group-item active">Home</a>
+				<a href="" class="list-group-item ">Sobre</a>
+				<a href="" class="list-group-item ">Portfolio</a>
+				<a href="" class="list-group-item ">Produtos</a>
+				<a href="" class="list-group-item ">Contatos</a>
+				<a href="" class="list-group-item ">Reclame aqui</a>
+			</div>
+		</div>
+	</div>
+
+<hr/>
+
+	<ul class="nav nav-tabs">
+		<li class="active">
+			<a href="#home" data-toggle="tab">HOME</a>
+		</li>
+		<li>
+			<a href="#sobre" data-toggle="tab">SOBRE</a>
+		</li>
+		<li>
+			<a href="#contato" data-toggle="tab">CONTATOS</a>
+		</li>
+	</ul>
+	<div class="tab-content">
+		<div id="home" class="tab-pane active in fade">
+			<h3>HOME</h3>
+			<p>Conteúdo da HOME</p>
+		</div>
+		<div id="sobre" class="tab-pane fade">
+			<H3>SOBRE</H3>
+			<p>Página de SOBRE</p>
+		</div>
+		<div id="contato" class="tab-pane fade">
+			<h3>CONTATO</h3>
+			<P>Formulário de CONTATOS</P>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+</div>
+</body>
+</html>
